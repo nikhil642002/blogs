@@ -46,7 +46,7 @@ notebook:
 
 else ifeq ($(platform),Linux)
 
-SNAPDIR := ./snap-1.2.1-2.4-centos6.5-x64-py2.6.tar.gz
+SNAPDIR := ./snap-1.2.1-2.4-centos6.5-x64-py2.6/
 
 $(SNAPDIR):
 	curl "http://snap.stanford.edu/snappy/release/snap-1.2.1-2.4-centos6.5-x64-py2.6.tar.gz" -o ./snap-1.2.1-2.4-centos6.5-x64-py2.6.tar.gz
