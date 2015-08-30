@@ -7,8 +7,9 @@ and 4) and graph based analysis which pulls out subgraphs using interactions aro
 
 ## Prerequisites
 
-This distribution assumes that Python Anaconda package manager is installed. This is a simplifying assumption that allows me to sidestep some of
-the arduous install involved in getting all the packages (e.g. numpy, scipy, snap.py) together in one environment.
+This distribution supports either MacOS or Linux. The MacOSX assumes that Python Anaconda package manager is installed. This is a simplifying assumption that allows me to sidestep some of the arduous install involved in getting all the packages (e.g. numpy, scipy, snap.py) together in one environment.
+
+The Linux install makes no such assumption.
 
 ## Building
 
@@ -17,6 +18,14 @@ To put everything together, running
       make deps check
 
 will create the python virtualenv under anaconda, download snap.py and run a small set of tests.
+
+On `Linux` run
+
+      sudo make deps
+
+then
+
+      make check
 
 ## Organization
 
