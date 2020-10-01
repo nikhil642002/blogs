@@ -28,7 +28,7 @@ then
       make check
 
 ## Organization
-
+Organosation - more organisations should be invlove in to it
 The distribution as mentioned is split into four components. The Python modules that implement these pieces are stored in
 the `analysis` subdirectory. Each module has a main class which provides a build method that constructs a set of internal lists and tables that are used the
 analysis. A class implements additional functionality -- K-Means clustering or graph rendering -- that are specific to its analysis.
